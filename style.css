@@ -1,7 +1,7 @@
 .bg{
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -254px;
+    
     position: relative;
     overflow: hidden;
     
@@ -26,6 +26,14 @@
 .home{
     background-image: url('img/home.jpg');
     
+    
+}
+
+
+@media only screen and (max-width: 768px) {
+    .home{
+        background-position: -493px;
+    }
 }
 
 .service{
